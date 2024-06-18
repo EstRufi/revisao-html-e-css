@@ -2,95 +2,106 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeep Wrangler</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <!DOCTYPE html>
+    <html lang="pt-BR">
 
-<body>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="assets/logo_jeep.png" alt="Logo Jeep">
-            </div>
-            <menu>
-                <a href="">Início</a>
-                <a href="">Galeria</a>
-                <a href="">Cores</a>
-                <a href="">Contato</a>
-            </menu>
-        </nav>
-    </header>
-    <main>
-        <section id="inicio">
-            <div class="banner">
-                <img src="assets/jeep-wrangler-bloqueador-diferencial-desk.webp" alt="Jeep Wrangler Bloqueador Diferencial">
-            </div>
-            <h1>Exclusivo <span>Motor 2.0</span> Turbo</h1>
-            <div class="lama">
-                <img src="assets/transparente-lama.webp" alt="">
-            </div>
-        </section>
-        <section id="galeria">
-            <div class="galeria">
-                <h2>Galeria <span>de Fotos</span></h2>
-                <div class="thumbs">
-                    <div class="thumb">
-                        <img src="assets/jeep-wrangler-bloqueador-diferencial-desk.webp" alt="">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jeep Wrangler</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="assets/logo_jeep.png" alt="Logo Jeep">
+                </div>
+                <menu>
+                    <a href="#inicio">Início</a>
+                    <a href="#galeria">Galeria</a>
+                    <a href="">Cores</a>
+                    <a href="">Contato</a>
+                </menu>
+            </nav>
+        </header>
+        <main>
+            <section id="inicio">
+                <div class="banner">
+                    <img src="assets/jeep-wrangler-bloqueador-diferencial-desk.webp" alt="Jeep Wrangler Bloqueador Diferencial">
+                </div>
+                <h1>Exclusivo <span>Motor 2.0</span> Turbo</h1>
+                <div class="lama">
+                    <img src="assets/transparente-lama.webp" alt="">
+                </div>
+            </section>
+            <section id="galeria">
+                <div class="galeria">
+                    <h2>Galeria <span>de Fotos</span></h2>
+                    <div class="thumbs">
+                        <div class="thumb" onclick="trocaImg
+                        ('jeep-wrangler-bloqueador-diferencial-desk.webp')">
+                            <img src="assets/jeep-wrangler-bloqueador-diferencial-desk.webp" alt="">
+                        </div>
+                        <div class="thumb" onclick="trocaImg
+                        ('RUBICON-trail-rated-mobile.webp')">
+                            <img src="assets/RUBICON-trail-rated-mobile.webp" alt="">
+                        </div>
+                        <div class="thumb" onclick="trocaImg
+                        ('Jeep-wrangler-barra-estabilizadora-desk.webp')">
+                            <img src="assets/Jeep-wrangler-barra-estabilizadora-desk.webp" alt="">
+                        </div>
+                        <div class="thumb" onclick="trocaImg
+                        ('jeep-rubicon-red.webp')">
+                            <img src="assets/jeep-rubicon-red.webp" alt="">
+                        </div>
+                        <div class="thumb" onclick="trocaImg
+                        ('jeep-wrangler-rubicon-gray.webp')">
+                            <img src="assets/jeep-wrangler-rubicon-gray.webp" alt="">
+                        </div>
+                        <div class="thumb" onclick="trocaImg
+                        ('jeep-wrangler-white.webp')">
+                            <img src="assets/jeep-wrangler-white.webp" alt="">
+                        </div>
                     </div>
-                    <div class="thumb">
-                        <img src="assets/RUBICON-trail-rated-mobile.webp" alt="">
-                    </div>
-                    <div class="thumb">
-                        <img src="assets/Jeep-wrangler-barra-estabilizadora-desk.webp" alt="">
-                    </div>
-                    <div class="thumb">
-                        <img src="assets/jeep-rubicon-red.webp" alt="">
-                    </div>
-                    <div class="thumb">
-                        <img src="assets/jeep-wrangler-rubicon-gray.webp" alt="">
-                    </div>
-                    <div class="thumb">
-                        <img src="assets/jeep-wrangler-white.webp" alt="">
+                    <div class="large">
+                        <div class="img-large">
+                            <img src="assets/Jeep-wrangler-barra-estabilizadora-desk.webp" alt="" id="fotoGrande">
+                        </div>
+                        <p id="desc">Texto Descritivo</p>
                     </div>
                 </div>
-                <div class="large">
-                    <div class="img-large">
-                        <img src="assets/Jeep-wrangler-barra-estabilizadora-desk.webp" alt="">
-                    </div>
-                    <p>Texto Descritivo</p>
+            </section>
+            <section id="cores">
+
+            </section>
+            <section id="contato">
+
+            </section>
+        </main>
+        <footer>
+            <div class="conteudo">
+                <div class="logo">
+                    <img src="assets/logo_jeep.png" alt="Logo Jeep">
+                </div>
+                <div class="marcas">
+                    <a href="">Ram</a>
+                    <a href="">Dodge</a>
+                    <a href="">Chrysler</a>
+                    <a href="">Fiat</a>
+                </div>
+                <div class="social">
+                    <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
                 </div>
             </div>
-        </section>
-        <section id="cores">
+            <p>&copy; 2024. Landing Page Jeep Wrangler. Projeto Educacional.</p>
+            <p>Desenvolvido por Flávio Ricardo</p>
+        </footer>
+    </body>
 
-        </section>
-        <section id="contato">
-
-        </section>
-    </main>
-    <footer>
-        <div class="conteudo">
-            <div class="logo">
-                <img src="assets/logo_jeep.png" alt="Logo Jeep">
-            </div>
-            <div class="marcas">
-                <a href="">Ram</a>
-                <a href="">Dodge</a>
-                <a href="">Chrysler</a>
-                <a href="">Fiat</a>
-            </div>
-            <div class="social">
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-youtube"></i></a>
-            </div>
-        </div>
-        <p>&copy; 2024. Landing Page Jeep Wrangler. Projeto Educacional.</p>
-        <p>Desemvolvido por Estela Rufino</p>
-    </footer>
-</body>
-
-</html>
+    </html>
